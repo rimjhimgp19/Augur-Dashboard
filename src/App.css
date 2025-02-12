@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #DADADA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.container {
+  text-align: center;
+}
+
+.title {
+  color: #23282D;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+  font-size: 2.5em;
+}
+
+.distributor-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  color: #23282D;
+  margin-bottom: 20px;
+}
+
+.distributor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
